@@ -1,0 +1,129 @@
+/**Estilos generales**/
+body{
+	background-image: url("../img/origami.jpg");
+	background-repeat: repeat;
+	margin:0 auto;
+	
+}
+.letra-morado{
+	color:#864ea0 !important;
+	font-family: Pacifico, Helvetica, Arial, sans-serif;
+}
+/********************/
+/*Menu de Navegacion*/
+nav{
+	width: 100%;
+	background: black;
+}
+ul{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-left: 40%;
+}
+li{
+	flex:auto;
+	background:  #000;
+	list-style: none;
+	text-align: center;
+	line-height: 3;
+	border-bottom:4px solid  black;
+}
+li:hover{
+	border-bottom:4px solid #36948D;
+	border-bottom-style: inset;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+/*Imagen de logo*/
+#logo{	
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left:20px;	
+	max-width: 35%;
+}
+/*****************************/
+/*************************/
+
+/*Estilos de Seccion*/
+/*Contenedor de toda la seccion*/
+.cuerpo{
+	width: 100%;
+	background: white;
+	border-radius: 10px;
+	margin-top: 80px; 
+}
+
+.sPrincipal{
+	width: 90% !important;
+	margin-left: 5%;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	background: white;
+	border-radius: 10px;
+}
+/***********************/
+/*Contiene las palabras de la izquierda*/
+.izquierda{
+	width:23% !important;
+	background: white;
+	display: inline-block;
+
+}
+/**********************/
+/*Estilos de la parte derecha*/
+/**Contenedor*/
+.imagenes{
+	width: 100% !important;
+	display: inline-block;
+}
+/************************/
+.display{
+	display: inline-block;
+}
+/*contenedor de las imagenes*/
+.derecha{
+	display:inline-block;
+	width: 75%;
+	background: white;
+}
+/*******************************/
+/*Tamaño de caja de cada contenedor de imagen y articulo*/
+.img{
+	width: 30%;
+	margin-top: 0;
+	text-align: center;
+	display: inline-block;
+}
+/***********************/
+/*Indica de que tamaño maximo ser la imagen*/
+img{
+	max-width: 100%;
+	border-radius: 5px;
+	
+}
+/***********************************/
+
+/*Titulo de Seccion*/
+.titulo{
+	font-family: CoralRegular, Helvetica, Arial;
+	font-size: 36px;
+
+}
+.titulo:hover{
+	color:#864ea0 !important;
+}
+//********/
+/**Footer*/
+.footer{
+	width: 100%;
+}
+/**********************/
+.letra-menu{
+	font-family: SkySerifMedium, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #5a2a70;
+}
